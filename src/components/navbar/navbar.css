@@ -1,0 +1,57 @@
+.navbar{
+    background-color: #142c8e;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0 100px;
+    position: sticky;
+    top:0;
+}
+
+.left-nav{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paypal-img{
+    width: 40px;
+    height: 40px;
+}
+
+.left-nav>p{
+    padding: 15px 1rem;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    border: 0.4px solid transparent;
+}
+.left-nav>p:hover{
+    transition: 0.5s ease-in-out;
+    border:  0.4px solid rgba(151, 152, 163, 0.7);
+}
+
+.right-nav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.right-nav>*{
+    cursor: pointer;
+}
+
+.noti,.setting{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.activity-nav{
+    background-color: rgba(255, 255, 255,0.1);
+}

@@ -1,0 +1,29 @@
+.filter{
+    padding: 1.3rem 1.3rem 0rem 1.3rem;
+}
+
+.filter-by{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.filter-btns{
+    padding-top: 1rem;
+    gap:20px;
+    display: flex;
+}
+
+.filter-btns>button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    background-color: transparent;
+    color: #142c8e;
+    font-weight: bold;
+}
+
+.filter-btns>.date{
+    background-color: rgba(119, 211, 211,0.2);
+    border: 1px solid rgba(119, 211, 211,0.2);
+}
